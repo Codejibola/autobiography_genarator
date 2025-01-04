@@ -1,0 +1,62 @@
+#input{
+    align-content: center;
+    text-align: center;
+    border: 3px solid #111111;
+    width: 70%;
+    margin: 0px 220px ;
+    background-color: #1212ee;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 0%;
+}
+
+/* h1,h3{
+    text-align: center;
+} */
+
+input{
+    margin-bottom: 10px;
+}
+
+input:active{
+    width: 180px;
+    height: 25px;
+    font-size: larger;
+}
+
+p{
+   margin-bottom: 0.5px;
+}
+
+button{
+    width: 120px;
+    height: 25px;
+    margin: 30px;
+}
+
+button:hover{
+    width: 150px;
+    height:35px ;
+    font-size: 25px;
+    transition: 0.2s ease-in-out;
+}
+
+#Autobiography{
+    border: 3px solid #111111;
+    margin: 60px 305px ;
+    text-align: center;
+    width: 60%;
+}
+
+.cold{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase ;
+}
+
+.hot{
+    font-size: larger;
+}
